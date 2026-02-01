@@ -29,5 +29,9 @@ jobs:
       - name: Run a one-line script
         run: bash makehosts.sh
 
-      - name: push
-        run: git push
+      - name: update
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git commit -am "update"
+          git push
