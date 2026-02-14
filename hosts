@@ -85852,5 +85852,9 @@ ff02::3 ip6-allhosts
 # 'example.com':
 
 # 0.0.0.0 example.com
+0.0.0.0 cdnbo.org
+0.0.0.0 us-cdnbo.org
+0.0.0.0 hakurei.us-cdnbo.org
 0.0.0.0 creatives.us-cdnbo.org
 0.0.0.0 hakurei.cdnbo.org
+0.0.0.0 creatives.cdnbo.org
